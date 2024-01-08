@@ -1,5 +1,7 @@
 # Password Generator
 
+https://simplepassgenerator.netlify.app/
+
 ## Project Summary:
 
 This project is a simple web-based random password generator with a user-friendly interface. The main features include a password generation button, the display of two randomly generated passwords, and buttons to copy each password to the clipboard. 
