@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Password Generator App</title>
+</head>
+<body>
+    <main>
+        <div class="main-container">
+            <h1>Generate a <br><span>random password</span></h1>
+            <p>Never use an insecure password again.</p>
+            <button class="genereate-password-btn">Generate passwords</button>
+            <div class="display-passwords">
+                <div>
+                    <p id="first-password"></p>
+                    <button id="copy-pass-one">Copy to clipboard!</button>
+                </div>
+                <div>
+                    <p id="second-password"></p>
+                    <button id="copy-pass-two">Copy to clipboard!</button>
+                </div>
+            </div>
+            <div>
+                <p id="copied-to-clipboard">Content copied to clipboard!</p>
+                <p id="failed-to-copy">Failed to copy</p>
+            </div>
+            <p id="warning">Passwords need to be genereated first!</p>
+        </div>
+    </main>
+</body>
+</html>
